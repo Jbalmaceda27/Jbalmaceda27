@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Productos</title>
+        <link rel="stylesheet" href="./style2.css">
+	</head>
+	<body>
+		<header>
+            <a href="main_view.html">Inicio</a>
+			<h1>Servicompu productos disponibles</h1>
+		</header>
+
+		<div class="container-title">Setup Gamer</div>
+
+		<main>
+			<div class="container-img">
+				<img
+					src="pc2.jpg"
+					alt="imagen-p"
+				/>
+			</div>
+			<div class="container-info-product">
+				<div class="container-price">
+					<span>$1500.00</span>
+					<i class="fa-solid fa-angle-right"></i>
+				</div>
+
+				<div class="container-details-product">
+					<div class="form-group">
+						<label for="colour">Color</label>
+						<select name="colour" id="colour">
+							<option disabled selected value="">
+								Escoge una opción
+							</option>
+							<option value="rojo">gris</option>
+							<option value="blanco">negro</option>
+							<option value="beige">Beige</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="type">Almacenamiento</label>
+						<select name="type" id="type">
+							<option disabled selected value="">
+								Escoge una opción
+							</option>
+							<option value="sd">sd</option>
+							<option value="hd">hd</option>
+						
+						</select>
+					</div>
+					<button class="btn-clean">Limpiar</button>
+				</div>
+
+				<div class="container-add-cart">
+					<div class="container-quantity">
+						<input
+							type="number"
+							placeholder="1"
+							value="1"
+							min="1"
+							class="input-quantity"
+						/>
+						<div class="btn-increment-decrement">
+							<i class="fa-solid fa-chevron-up" id="increment"></i>
+							<i class="fa-solid fa-chevron-down" id="decrement"></i>
+						</div>
+					</div>
+					<button class="btn-add-to-cart">
+						<i class="fa-solid fa-plus"></i>
+						Añadir al carrito
+					</button>
+				</div>
+
+				<div class="container-description">
+					<div class="title-description">
+						<h4>Descripción</h4>
+						<i class="fa-solid fa-chevron-down"></i>
+					</div>
+					<div class="text-description">
+						<p>
+						setup completo con case negro ,monitor LG , mouse g.combat 240 32gb ram fan rgb grafica nvdia gforce 3060gtx
+						</p>
+					</div>
+				</div>
+
+				<div class="container-additional-information">
+					<div class="title-additional-information">
+						<h4>Información adicional</h4>
+						<i class="fa-solid fa-chevron-down"></i>
+					</div>
+					<div class="text-additional-information hidden">
+						<p>-----------</p>
+					</div>
+				</div>
+
+				<div class="container-reviews">
+					<div class="title-reviews">
+						<h4>Reseñas</h4>
+						<i class="fa-solid fa-chevron-down"></i>
+					</div>
+					<div class="text-reviews hidden">
+						<p>-----------</p>
+					</div>
+				</div>
+
+				<div class="container-social">
+					<span>Compartir</span>
+					<div class="container-buttons-social">
+						<a href="#"><i class="fa-solid fa-envelope"></i></a>
+						<a href="#"><i class="fa-brands fa-facebook"></i></a>
+						<a href="#"><i class="fa-brands fa-twitter"></i></a>
+						<a href="#"><i class="fa-brands fa-instagram"></i></a>
+						<a href="#"><i class="fa-brands fa-pinterest"></i></a>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<section class="container-related-products">
+			<h2>Productos tecnologicos relacionados</h2>
+			<div class="card-list-products">
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="acer.jpg"
+							alt="producto-1"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Acer spin</h3>
+							<p class="category">laptop gama media</p>
+						</div>
+						<div class="price">$600.00</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="lg_m.jpg"
+							alt="producto-2"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Monitor lg</h3>
+							<p class="category">monitor hd 4k</p>
+						</div>
+						<div class="price">$255.00</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="mouse.jpg"
+							alt="producto-3"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Mouse gamer combat</h3>
+							<p class="category">ergonomico especial/p>
+						</div>
+						<div class="price">$105.00</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="audio.jpg"
+							alt="producto-4"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Audifonos combat xlrs</h3>
+							<p class="category">Anti-ruido</p>
+						</div>
+						<div class="price">100.00</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<p>Tecnology devices</p>
+		</footer>
+
+		<script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="index.js"></script>
+	</body>
+</html>
